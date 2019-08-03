@@ -1,0 +1,22 @@
+.List{
+    width: 100%;
+    height:calc(100% - 2.5rem);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: #f4f4f4;
+}
+.list-input{
+    display: flex;
+    /* padding: 0 1rem; */
+}
+.list-box{
+    height: calc(100% - 2rem);
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
